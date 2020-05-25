@@ -1,0 +1,85 @@
+* {
+	font-family: 'Roboto', sans-serif;
+	color:#353635;
+}
+
+/*Navbar styling*/
+
+.navbar { /*navbar styling*/
+	background-color: #effc9a;
+	border:0;
+	margin-bottom: 0px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  color: #f06b2e;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-toggle { /*hamburger menu button styling*/
+	background-color: #f06b2e;
+}
+
+#menu-line { /*hamburger menu icon button styling*/
+	background-color: #c5fa8c;
+}
+
+#hamburger-menu { /*eliminate bootstrap margins for hamburger menu box*/
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#hamburger-menu a { /*target hamburger menu line items*/
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #f06b2e;
+  border:10px #000000;
+}
+
+#hamburger-menu a:hover { /*set hover styling*/
+  background: #c5fa8c;
+  color:inherit;
+}
+
+hr {
+	margin:0;
+}
+
+/*End Navbar styling */
+
+/*Begin Main Content Styling*/
+body {
+	background-color: #6fd16f;
+}
+
+#home-page-header {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#container-box-menu {
+	background-color: #b0e8b0;
+	height: 1000px;
+	width: 100%;
+	padding: 5px 15px 0;
+	margin-bottom: 15px;
+}
+
+h3 {
+	margin-top: 0;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/********** Extra small devices only for Main Content Styling **********/
+@media (max-width: 767px){
+  #container-box-menu {
+    width: 90%;
+    margin: 0 auto 15px;
+  }
+}
